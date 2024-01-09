@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Form in HTML
+        </title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <h1>Form in HTML</h1>
+        <hr>
+        <form action="form.php">
+            <label>
+                Name:
+            </label> <br>
+            <input type="text" required><br>
+            <label>Email</label> <br>
+            <input type="email" required><br>
+            <label>Mobile NO:</label> <br>
+            <input type="tel" minlength="10" required><br><br>
+            <label>Gender:</label>
+            <label>Male</label>
+            <input type="radio" id="gender" name="gender" required>
+            <label>Female</label>
+            <input type="radio" id="gender" name="gender" required>
+            <label>Others</label>
+            <input type="radio" id="gender" name="gender" required> <br/> <br>
+            <label>Income(in per annum):</label>
+            <input type="range" min="1" max="25" id="range" value="2" onchange="rang()"><label id="demo"> 2 LPA</label>
+            <br> <br>
+            <label>DOB:</label>
+            <input type="date" required><br> <br>
+            <input type="checkbox" id="terms" name="terms" required><label>Accept terms and conditions</label><br><br>
+            <input type="submit" value="submit">
+            <br>
+        </form>
+    </body>
+    <Script>
+        function rang(){
+            var a=document.getElementById('range').value;
+            document.getElementById('demo').innerHTML=a+' LPA';
+        }
+    </Script>
+</html>

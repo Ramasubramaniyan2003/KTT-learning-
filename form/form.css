@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color: green;
+}
+form{
+    margin-left:45%;
+     position: absolute;
+     top: 20%;
+  
+}
+input[type=checkbox],input[type=radio],
+input[type=range]{
+    accent-color: green;
+}
+
