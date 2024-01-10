@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Css Syntax
+        </title>
+    </head>
+    <body>
+        <h1 style="color: green;text-align: center;">
+            CSS Syntax
+        </h1>
+        <hr>
+        <p>p is a selector in CSS (it points to the HTML element you want to style:)</p>
+         <p> color is a property, and red is the property value</p>
+           <p>text-align is a property, and center is the property value</p>
+           <hr>
+           <h1 style="color:green;text-align: center;">CSS selectors</h1>
+           <hr>
+        <code>class="heading"</code><br>
+        <h1 class="heading">This is heading class is used to initialize a selector</h1><br>
+        <code>id="para"</code>
+        <p id="para">this is paragraph id is used to initialize a selector</p>
+        <hr>
+        <p>In this example only 'p' elements with class="center" will be red and center-aligned: </p>
+        <p class="center">this is a paragraph in class center of p tag</p>
+        <p>HTML elements can also refer to more than one class.</p>
+        <p class="two class">This paragraph refers a two class</p>
+        <h3>The CSS Universal Selector</h3>
+        <p>The universal selector (*) selects all HTML elements on the page.</p>
+        <h3>The CSS Grouping Selector</h3>
+        <p>The grouping selector selects all the HTML elements with the same style definitions.</p>
+        <p>Example: h1,h2,h3{.....}</p>
+        <h1>hello -h1</h1>
+        <h2>hello -h2</h2>
+        <h3>hello -h3</h3>
+
+    </body>
+</html>
+<style>
+    .heading{
+         text-align: center;
+    }
+    #para{
+          text-align: center;
+          color: red;
+    }
+    p.center{
+        text-align: center;
+        color: red ;
+    }
+    .two{
+        text-align: center;
+    }
+    .class{
+        color: royalblue;
+    }
+    *{
+        background-color: antiquewhite;
+    }
+   h1,h2,h3{
+    color: blue;
+    text-align: center;
+   }
+</style>
