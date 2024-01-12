@@ -1,0 +1,283 @@
+*{
+    background-color:purple;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+}
+hr{
+margin-left: -20px;
+}
+.aling-center{
+    border: 1px solid black;
+    height: 500px;
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+ 
+    margin-left:5%;
+}
+.aling-center div{
+    background-color:white;
+    color: black;
+    margin: 40px;
+    padding: 25px;
+    width: 60px;
+    border-radius: 5px;
+    text-align: center;
+}
+.aling-stretch{
+    border: 1px solid black;
+    height: 500px;
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:stretch;
+    margin-left:5%;
+}
+.aling-stretch div{
+    background-color: white;
+    color: black;
+    margin: 40px;
+   width: 60px;
+   border-radius: 5px;
+   text-align: center;
+}
+.aling-flex-start{
+    border: 1px solid black;
+    height: 500px;
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:flex-start;
+    margin-left:5%;
+}
+.aling-flex-start div{
+    background-color: white;
+    color: black;
+    margin: 40px;
+    padding: 25px;
+    width: 60px;
+    border-radius: 5px;
+    text-align: center;
+}
+.aling-flex-end{
+    border: 1px solid black;
+    height: 500px;
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:flex-end;
+    margin-left:5%;
+}
+.aling-flex-end div{
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 40px;
+    padding: 25px;
+    width: 60px;
+    border-radius: 5px;
+    text-align: center;
+}
+.aling-space-around{
+    border: 1px solid black;
+    height: 500px;
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-around;
+    margin-left:5%;
+}
+.aling-space-around div{
+    background-color:white;
+    margin: 40px;
+    padding: 25px;
+    width: 60px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+}
+.aling-space-between{
+    border: 1px solid black;
+    height: 500px;
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-between;
+    margin-left:5%;
+}
+.aling-space-between div{
+    background-color:white;
+    margin: 40px;
+    padding: 25px;
+    width: 60px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+}
+/* aling items */
+.aling-items-center{
+    border: 1px solid black;
+    height: 270px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.aling-items-center div{
+    width: 60px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.aling-items-flex-start{
+    border: 1px solid black;
+    height: 270px;
+    width: 80%;
+    display: flex;
+    align-items:flex-start;
+    margin-left: 5%;
+}
+.aling-items-flex-start div{
+    width: 60px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+.aling-items-flex-end{
+    border: 1px solid black;
+    height: 270px;
+    width: 80%;
+    display: flex;
+    align-items:flex-end;
+    margin-left: 5%;
+}
+.aling-items-flex-end div{
+    width: 60px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+.aling-items-baseline{
+    border: 1px solid black;
+    height: 270px;
+    width: 80%;
+    display: flex;
+    align-items:baseline;
+    margin-left: 5%;
+}
+.aling-items-baseline div{
+    width: 60px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+.aling-items-stretch{
+    border: 1px solid black;
+    height: 270px;
+    width: 80%;
+    display: flex;
+    align-items:stretch;
+    margin-left: 5%;
+}
+.aling-items-stretch div{
+    width: 60px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+/* aling-self */
+.aling-self-center{
+    border: 1px solid black;
+    height: 270px;
+    width: 80%;
+    display: flex;
+    margin-left: 5%;
+}
+.aling-self-center div{
+    padding: 20px;
+    height: 20px;
+    width: 100%;
+}
+/* it moves single container */
+#violet-center{
+    align-self: center;
+}
+.aling-self-flex-end{
+    border: 1px solid black;
+    height: 270px;
+    width: 80%;
+    display: flex;
+    align-items:stretch;
+    margin-left: 5%;
+}
+.aling-self-flex-end div{
+    padding: 20px;
+    height: 20px;
+    width: 100%;
+}
+#violet-end{
+    align-self:flex-end;
+}
+.aling-self-base-line{
+    border: 1px solid black;
+    height: 270px;
+    width: 80%;
+    display: flex;
+    margin-left: 5%;
+}
+.aling-self-base-line div{
+    padding: 20px;
+    height: 20px;
+    width: 100%;
+}
+#violet-base-line{
+    align-self:flex-end;
+}
+.aling-self-stretch{
+    border: 1px solid black;
+    height: 270px;
+    width: 80%px;
+    display: flex;
+    margin-left: 5%;
+}
+.aling-self-stretch div{
+    padding: 20px;
+    height: 20px;
+    width: 100%;
+}
+#violet-base-line{
+    align-self:stretch;
+}
+.aling-self-stretch{
+    border: 1px solid black;
+    height: 270px;
+    width: 80%;
+    display: flex;
+    margin-left: 5%;
+}
+.aling-self-stretch div{
+    padding: 20px;
+    height: 20px;
+    width: 100%;
+}
+#violet-base-stretch{
+    align-self:stretch;
+}
+.aling-self-flex-start{
+    border: 1px solid black;
+    height: 270px;
+    width: 80%;
+    display: flex;
+    margin-left: 5%;
+}
+.aling-self-flex-start div{
+    padding: 20px;
+    height: 20px;
+    width: 100%;
+}
+#violet-base-start{
+    align-self:flex-start;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aling in CSS</title>
+    <link rel="stylesheet" href="aling.css">
+</head>
+<body>
+    <h1>Aling in CSS</h1>
+    <hr>
+    <ol>
+        <li>The align-content property aligns items in a flex container.</li>
+            <li>The alignment is along flex lines (horizontal virtual lines).</li>
+            <li>A flex line works like a magnet, pulling items towards it.</li>
+    </ol>
+    <h2 id="aling-content">
+        Aling Content
+    </h2>
+    <h3><u>Center</u></h3>
+    <br>
+<div class="aling-center">
+   <div>1</div>
+   <div>2</div>
+   <div>3</div>
+   <div>4</div>
+   <div>5</div>
+   <div>6</div>
+   <div>7</div>
+   <div>8</div>
+   <div>9</div>
+   <div>10</div>
+</div>
+<h3><u>Stretch</u></h3>
+<div class="aling-stretch">
+   <div>1</div>
+   <div>2</div>
+   <div>3</div>
+   <div>4</div>
+   <div>5</div>
+   <div>6</div>
+   <div>7</div>
+   <div>8</div>
+   <div>9</div>
+   <div>10</div>
+</div>
+<h3><u>aling-space-around</u></h3>
+<div class="aling-space-around">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+ </div>
+ <h3><u>aling-space-between</u></h3>
+ <div class="aling-space-between">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+ </div>
+ <h3><u>aling-flex-start</u></h3>
+ <div class="aling-flex-start">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>    
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+ </div>
+ <h3><u>aling-flex-end</u></h3>
+ <div class="aling-flex-end">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+ </div>
+
+ <hr>
+ <h1>aling-items</h1>
+ 
+ <h2><u>aling-items-center</u></h2>
+
+ <div class="aling-items-center">
+    <div style="background-color: royalblue;">1</div>
+    <div style="background-color: blueviolet;">2</div>
+    <div style="background-color: steelblue;">3</div>
+</div>
+<h2><u>aling-items-flex-start</u></h2>
+<div class="aling-items-flex-start">
+   <div style="background-color: royalblue;">1</div>
+   <div style="background-color: blueviolet;">2</div>
+   <div style="background-color: steelblue;">3</div>
+</div>
+<h2><u>aling-items-flex-end</u></h2>
+<div class="aling-items-flex-end">
+   <div style="background-color: royalblue;">1</div>
+   <div style="background-color: blueviolet;">2</div>
+   <div style="background-color: steelblue;">3</div>
+</div>
+
+<h2><u>aling-items-baseline</u></h2>
+<div class="aling-items-baseline">
+   <div style="background-color: royalblue;">1</div>
+   <div style="background-color: blueviolet;">2</div>
+   <div style="background-color: steelblue;">3</div>
+</div>
+<h2><u>aling-items-stretch</u></h2>
+<div class="aling-items-stretch">
+   <div style="background-color: royalblue;">1</div>
+   <div style="background-color: blueviolet;">2</div>
+   <div style="background-color: steelblue;">3</div>
+</div>
+<hr>
+
+<h1>align-self</h1>
+<h3><u>Aling-self:stretch</u></h3>
+<div class="aling-self-stretch">
+    <div style="background-color: yellowgreen;">1</div>
+    <div style="background-color: violet;" id="violet-stretch">2</div>
+    <div style="background-color: turquoise;" id="turquoise">3</div>
+</div>
+<h3><u>Aling-self:center</u></h3>
+<div class="aling-self-center">
+    <div style="background-color: yellowgreen;">1</div>
+    <div style="background-color: violet;" id="violet-center">2</div>
+    <div style="background-color: turquoise;">3</div>
+</div>
+<h3><u>Aling-self:flex-start</u></h3>
+<div class="aling-self-flex-start">
+    <div style="background-color: yellowgreen;">1</div>
+    <div style="background-color: violet;" id="violet-start">2</div>
+    <div style="background-color: turquoise;" id="turquoise">3</div>
+</div>
+<h3><u>Aling-self:flex-end</u></h3>
+<div class="aling-self-flex-end">
+    <div style="background-color: yellowgreen;">1</div>
+    <div style="background-color: violet;" id="violet-end">2</div>
+    <div style="background-color: turquoise;" id="turquoise">3</div>
+</div>
+<h3><u>Aling-self:base-line</u></h3>
+<div class="aling-self-base-line">
+    <div style="background-color: yellowgreen;">1</div>
+    <div style="background-color: violet;" id="violet-baseline">2</div>
+    <div style="background-color: turquoise;" id="turquoise">3</div>
+</div>
+<hr>
+<!-- <fieldset>Source:W3schools.com</fieldset> -->
+</body>
+</html>

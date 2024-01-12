@@ -1,0 +1,169 @@
+.border-width{
+    border-width:medium;
+    border-style: solid;
+    height: 100px;
+    width: 80%;
+    margin-left: 5%;
+}
+.border-width-1{
+    border-width:thick;
+    border-style: solid;
+    height: 100px;
+    width: 80%;
+    margin-left: 5%;
+}
+.border-width-2{
+    border-width:thin;
+    border-style: solid;
+    height: 100px;
+    width: 80%;
+    margin-left: 5%;
+}
+.border-width-3{
+    border-width: 10px;
+    border-style: solid;
+    height: 100px;
+    width: 80%;
+    margin-left: 5%;
+}
+.border-style-1{
+    border-width:medium;
+    border-style: solid;
+    color: red;
+    height: 100px;
+    width: 80%;
+    margin-left: 5%;
+}
+.border-style-2{
+    border-width:medium;
+    border-style:dashed;
+    color: yellow;
+    height: 100px;
+    width: 80%;
+    margin-left: 5%;
+}
+.border-style-3{
+    border-width:medium;
+    border-style:dotted;
+    color: goldenrod;
+    height: 100px;
+    width: 80%;
+    margin-left: 5%;
+}
+.border-style-4{
+    border-width:medium;
+    border-style:double;
+    color: rebeccapurple;
+    height: 100px;
+    width: 80%;
+    margin-left: 5%;
+}
+.border-block{
+    border-block: 2px solid black;
+    height: 100px;
+    border-block-color: red;
+    width: 80%;
+    margin-left: 5%;
+}
+.border-block-end{
+    border-block-end: 10px yellow dashed;
+    /* above given or
+    border-block-end-color:yellow
+     */
+     /* style:
+     above given style or 
+     border-block-end-style:dotted; */
+     /* border block end width 
+     above or
+     border-block-end-width:10px*/
+    height: 100px;
+    background-color: burlywood;
+    width: 80%;
+    margin-left: 5%;
+}
+.border-block-start{
+    border-block-start: 10px mediumblue dashed;
+    /* above given or
+    border-block-start-color:yellow
+     */
+     /* style:
+     above given style or 
+     border-block-start-style:dotted; */
+     /* border block start width 
+     above or
+     border-block-start-width:10px*/
+    height: 100px;
+    background-color: violet;
+    width: 80%;
+    margin-left: 5%;
+}
+.border-bottom{
+    border-bottom: 10px solid blue;
+    height: 50px;
+    margin-left: 5%;
+    width: 80%;
+}
+.border-bottom-1{
+    border-bottom: 10px dashed rgb(113, 202, 30);
+    height: 50px;
+    margin-left: 5%;
+    width: 80%;
+}
+.border-bottom-2{
+    border-bottom: 10px dotted rgb(34, 188, 209);
+    height: 50px;
+    margin-left: 5%;
+    width: 80%;
+}
+.border-bottom-left-radius{
+    border: 2px solid red;
+    margin-left: 5%;
+    width: 80%;
+    height: 50px;
+    border-bottom-left-radius:20px 10px;
+}
+.border-bottom-right-radius{
+    border: 2px solid red;
+    margin-left: 5%;
+    height: 50px;
+    width: 80%;
+    border-bottom-right-radius:20px 10px;
+}
+.border-bottom-width-style{
+    border: 2px solid blue;
+  height: 50px;
+    margin-left: 5%;
+    width: 80%;
+    border-bottom-width: 10px;
+    border-bottom-style: double;
+}
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left:5%;
+    height: 50px;
+    width: 40%;
+}
+.border-color{
+    border: 2px solid;
+    border-color: magenta;
+    margin-left: 5%;
+    width: 80%;
+    height: 50px;
+}
+.border-end-end-radius{
+    border: 2px solid;
+    background-color: aqua;
+    margin-left: 5%;
+    width: 80%;
+    height: 50px;
+    border-end-end-radius: 20px 10px;
+}
+.border-end-start-radius{
+    border: 2px solid;
+    background-color: aqua;
+    margin-left: 5%;
+    width: 80%;
+    height: 50px;
+    border-end-start-radius: 20px 10px;
+}
